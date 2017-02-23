@@ -1,6 +1,6 @@
 ### Research overview
 
-Our research aims to help increasing participation, quality, and empathy in online conversation at scale. Our three primary areas of research are:
+Our research aims to help increase participation, quality, and empathy in online conversation at scale. Our three primary areas of research are:
 
 * How might machine learning methods help online conversations?
 * What aspects of a conversation can machine learning understand?
