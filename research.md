@@ -36,4 +36,8 @@ What unintended and unfair biases might machine learning models contain? What im
 
 How might machine learning based tool be gamed?
 
+ * Word based models, including the CNN we developed for toxicty can be tricked easily by misspellings. Using character level models helps address this, requires more data, and suffers from [the vanishing gardient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem).
+
+ * Models based on character-level ngrams fed into feed-forward networks can be gamed by adding additional ngrams after the initial comment that counter the signal from the problematic ngrams. This can be addressed by using RNNs (e.g. LSTMs) and CNNs provide a way to take account of more of the textual context.
+
 How might ML be misused to censor or reduce viewpoints in a conversation?
