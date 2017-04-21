@@ -22,7 +22,7 @@ For our text classification problems, a natural notion of unintended bias is tha
 
 A second form of bias we want to avoid is with respect to topic: we want to support conversations on any topic. We consider our model topic-biased when it over or under triggers significantly more when being evaluated on conversations concerning that topic.
 
-# What leads to a model being biased?
+## What leads to a model being biased?
 
 Given that our machine learning models are trained by the judgements of people (crowdworkers in our case), the demographics of the people may be biased: the crowdworkers judgements may reflect their demographics instead of the characteristics of the text they are examining.
 
@@ -38,7 +38,7 @@ The key challenges in identifying bias from insufficiently diverse data are:
 
 Moreover, the challenges of topic and demographics based bias may intersect: how toxic a comment is perceived by annotators may depend on both the characteristics of the annotator and the topic.
 
-# What can we do about it?
+## What can we do about it?
 
 Understanding and mitigating unintended bias requires analysis and scrutiny from an many perspectives. This is one of the key motivations for [opening access to an API that hosts models](https://www.perspectiveapi.com/) and creating public datasets like [our Wikipedia datasets](Research:Detox/Data_Release). These tools support others researchers to join the effort to understand and address bias in machine learning.
 
