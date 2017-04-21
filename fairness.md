@@ -42,4 +42,4 @@ Moreover, the challenges of topic and demographics based bias may intersect: how
 
 Understanding and mitigating unintended bias requires analysis and scrutiny from an many perspectives. This is one of the key motivations for [opening access to an API that hosts models](https://www.perspectiveapi.com/) and creating public datasets like [our Wikipedia datasets](Research:Detox/Data_Release). These tools support others researchers to join the effort to understand and address bias in machine learning.
 
-Bias in our models is an active area of research and we welcome others [getting involved in WikiDotox Wiki pages](https://meta.wikimedia.org/wiki/Research:Detox) and via [Conversation AI research projects on github](https://conversationai.github.io/).
+Bias in our models is an active area of research and we welcome others [getting involved in WikiDetox Wiki pages](https://meta.wikimedia.org/wiki/Research:Detox) and via [Conversation AI research projects on github](https://conversationai.github.io/).
