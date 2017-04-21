@@ -2,13 +2,13 @@
 
 ## Fairness and Bias in Machine Learning
 
-Machine learning models are often biased in unintended ways: this tends to come from skewed or incomplete training data. In text classification for toxicity, this can happen because of:
+Machine learning models are often biased in unintended ways. This tends to come from skewed or incomplete training data. In text classification, this typically happens because of:
 
  * *Gaps in the training data*: for example there are few outright threats of violence posted to wikipedia comments, so machine learning algorithms trained on that data will not be good at identifying them.
 
- * *Skewed annotator population*: a skewed demographic of crowd-workers might impact rating, ex. if population of crowd-workers labelling the training data skew toward a particular political orientation, and do not consider attacks on opponents as toxic. Here, we’re loosely using the term “demographic” to refer to personal characteristics of annotators (gender, age, sexual orientation, but also: membership in interest groups, etc.)
+ * *Skewed annotators*: a skewed demographic of crowdworkers might impact the judgements they make. For example, if the population of crowdworkers labelling the training data skew toward a particular political orientation, they may not consider attacks on their political opponents as toxic. Here, we are loosely using the term "demographic" to refer to any characteristic of annotators that may correlate with their judgement (gender, age, sexual orientation, but also: membership in interest groups, etc.)
 
-We want our models support conversations being more inclusive; to allow more points of views to be shared. But unintended biases might lead to application inadvertently doing the opposite. An interactive visualization of this with a lot more detail can be found at the site of [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) and many further resources are at the [FAT ML resoure page](http://www.fatml.org/resources/relevant-scholarship).
+We want our models support conversations being more inclusive and allow more points of views to be shared. But unintended biases might lead to application inadvertently doing the opposite. An interactive visualization that explore the risks and impact of bias can be found at the site of [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/). Many good further resources are maintained on the [FAT ML community resoure page](http://www.fatml.org/resources/relevant-scholarship).
 
 ## Are the models biased? in what ways?
 
