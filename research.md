@@ -32,12 +32,16 @@ How much of the structure of a conversation can machine learning approaches unco
 
 What unintended and unfair biases might machine learning models contain? What impact might such biases have? What are the best ways to identify these biases? and what can be done mitigate them?
 
- * See [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) for a great introduction to the problem. Challenges related machine learning fairness and algorithmic bias are outlined further on our [WikiDetox Fairness page](https://meta.wikimedia.org/wiki/Research:Detox:Fairness).
+ * See [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) for a great introduction to the problem. Challenges related machine learning fairness and algorithmic bias are outlined further on our [Fairness page](fairness.md).
 
 How might machine learning based tool be gamed?
 
- * Word based models, including the CNN we developed for toxicty can be tricked easily by misspellings. Using character level models helps address this, but requires more data and for RNNs especially suffers from [the vanishing gardient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem).
+ * Word based models, including the CNN we developed for toxicty, can be tricked easily by creative misspellings. Using character level models can help address this, but require more data and their training suffers from [the vanishing gardient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem).
 
- * Models based on character-level ngrams fed into feed-forward networks can be gamed by adding additional ngrams after the initial comment that counter the signal from the problematic ngrams. This can be addressed by using RNNs (e.g. LSTMs) and CNNs provide a way to take account of more of the textual context.
+ * Models based on character-level ngrams fed into feed-forward networks, like our TOXICITY_FAST model, can be easily gamed by adding additional ngrams after the initial comment that counter the signal from the problematic ngrams. This can be addressed by using RNNs and CNNs, like our TOXICITY model which take account of more of the textual context.
+
+ * The practical impact of gaming ML models is an open research question, and is likely to depend on way the ML is applied. Moreover, there are different threat models for different applications of ML: gaming of an authorship experience is quite different to the recieving suggestions and considering retraining on them.
+
+ * The research of [Cheng et. al.](https://arxiv.org/abs/1702.01119) and [Wulczyn et. al.](https://arxiv.org/abs/1610.08914) suggest that the magority of toxic contributions are not from people who would be incentivised to game models, but from people having a 'bad day'.
 
 How might ML be misused to censor or reduce viewpoints in a conversation?
