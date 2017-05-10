@@ -50,3 +50,7 @@ The research effort was started by [Jigsaw](https://jigsaw.google.com/) and the 
 ### Open source ML efforts for online conversation
 
 Are you building a machine learning tool for great conversation that you’d like to us to know about and link to from this page? [Let us know!](https://goo.gl/forms/z3JatRhT5x53Xa0I2)
+
+### Contributing examples to help improve online conversation
+
+Do you have examples of toxic and non-toxic comments that you would like to contribute for use in research and products to improve conversations online? You can [submit it here!](https://goo.gl/forms/d9TMWhnHB8vEzmyR2)
