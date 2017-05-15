@@ -20,7 +20,7 @@ To submit a link to an existing public dataset, or get help creating new public 
 
 ### Perspective API
 
-The Perspective API ([demo](https://www.perspectiveapi.com/) | [API documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md)) serves models created by the Conversation AI research initiative to enable platforms, developers, and researchers to explore how ML might help conversations online. The API scores a comment based on its potential impact on a conversation.
+The Perspective API ([demo](https://www.perspectiveapi.com/); [API documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md)) serves models created by the Conversation AI research initiative to enable platforms, developers, and researchers to explore how ML might help conversations online. The API scores a comment based on its potential impact on a conversation.
 
 Our first alpha-version perspective is 'toxicity', and is only in English right now. This allows text to be scored based its similarity to comments people have said are “toxic” or likely to make them leave a conversation. The model is still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve.
 
