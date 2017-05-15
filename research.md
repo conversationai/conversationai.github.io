@@ -42,6 +42,6 @@ How might machine learning based tool be gamed?
 
  * The practical impact of gaming ML models is an open research question, and is likely to depend on way the ML is applied. Moreover, there are different threat models for different applications of ML: gaming of an authorship experience is quite different to the recieving suggestions and considering retraining on them.
 
- * The research of [Cheng et. al.](https://arxiv.org/abs/1702.01119) and [Wulczyn et. al.](https://arxiv.org/abs/1610.08914) suggest that the magority of toxic contributions are not from people who would be incentivised to game models, but from people having a 'bad day'.
+ * The research of [Cheng et. al.](https://arxiv.org/abs/1702.01119) and [Wulczyn et. al.](https://arxiv.org/abs/1610.08914) suggest that the majority of toxic contributions are not from people who would be incentivised to game models, but from people having a 'bad day'.
 
 How might ML be misused to censor or reduce viewpoints in a conversation?
