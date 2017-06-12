@@ -1,6 +1,6 @@
 [Back to Conversation AI Research Overview](index.md)
 
-# A quick introduction to Machine Learning
+## A quick introduction to Machine Learning
 
 To get involved, its helpful to understand some of the core topics and terminology in the Machine Learning (typically apprivated to just ML). This is a short introduction to the branch ML we use.
 
