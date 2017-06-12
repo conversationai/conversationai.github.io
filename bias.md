@@ -1,5 +1,7 @@
 [Back to Conversation AI Research Overview](index.md)
 
+This page is intended to help people collaborate in helping us understand machine learning bias. If you want to know more about the machine learning terms used in this page, have a quick read of [our introduction to ML](ml_intro.md).
+
 ## Bias in Machine Learning
 
 Machine learning models are often biased in unintended ways. This tends to come from skewed or incomplete training data. In text classification, this typically happens because of:
