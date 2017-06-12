@@ -4,6 +4,8 @@
 
 This page outlines the high level questions we are exploring. Further related research can be found on the [WikiDetox outline of related work](https://meta.wikimedia.org/wiki/Research:Detox/Resources).
 
+We also have a page that provides [a brief introduction to ML](ml_intro.md) to help make this research easier to understand.
+
 #### How might machine learning methods help online conversations?
 
 How can machine learning enable us understand harassment at scale?
@@ -32,7 +34,7 @@ How much of the structure of a conversation can machine learning approaches unco
 
 What unintended and unfair biases might machine learning models contain? What impact might such biases have? What are the best ways to identify these biases? and what can be done mitigate them?
 
- * See [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) for a great introduction to the problem. Challenges related machine learning fairness and algorithmic bias are outlined further on our [Fairness page](fairness.md).
+ * See [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) for a great introduction to the problem. Challenges related machine learning bias, fairness and algorithmic bias are outlined further on our [bias page](bias.md).
 
 How might machine learning based tool be gamed?
 
