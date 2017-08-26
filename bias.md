@@ -4,13 +4,13 @@ This page is intended to help people collaborate in helping us understand machin
 
 ## Bias in Machine Learning
 
-Machine learning models are often biased in unintended ways. This tends to come from skewed or incomplete training data. In text classification, this typically happens because of:
+Machine learning models are often biased in unintended ways. You can find [a quick introduction to human bias in ML on YouTube](https://youtu.be/59bMh59JQDo). Unintended bias tends to come from skewed or incomplete training data. In text classification, this typically happens because of:
 
  * *Gaps in the training data*: for example, there are few outright threats of violence posted to wikipedia comments. Thus machine learning algorithms trained on only wikipedia comments will not be good at identifying them.
 
  * *A biased annotator population*: for example, if the population of people creating the training data is skewed toward a particular political orientation, then one might imagine that the annotators will not consider attacks on their political opponents as toxic.
 
-We want our models support conversations being more inclusive and allow more points of views to be shared. But unintended biases might lead to application inadvertently doing the opposite. An interactive visualization that explore the risks and impact of bias can be found at the site of [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/). Many good further resources are maintained on the [FAT ML community resoure page](http://www.fatml.org/resources/relevant-scholarship).
+We want our models support conversations being more inclusive and allow more points of views to be shared. But unintended biases might lead to application inadvertently doing the opposite. An interactive visualization that explore the risks and impact of bias can be found at the site of [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/). Many good further resources are maintained on the [FAT ML community resoure page](http://www.fatml.org/resources/relevant-scholarship). 
 
 ## Are the models biased? in what ways?
 
