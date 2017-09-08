@@ -2,7 +2,7 @@
 
 This page is intended to help people collaborate in helping us understand machine learning bias. If you want to know more about the machine learning terms used in this page, have a quick read of [our introduction to ML](ml_intro.md).
 
-## Bias in Machine Learning
+## Unintended Bias in Machine Learning
 
 Machine learning models are often biased in unintended ways. You can find [a quick introduction to human bias in ML on YouTube](https://youtu.be/59bMh59JQDo). Unintended bias tends to come from skewed or incomplete training data. In text classification, this typically happens because of:
 
@@ -36,9 +36,9 @@ Finally, the challenges of topic and crowdworker selection biases may intersect:
 
 Understanding and mitigating unintended bias requires analysis and scrutiny from an many perspectives. This is one of the key motivations for [opening access to an API that hosts models](https://www.perspectiveapi.com/) and creating public datasets like [our Wikipedia datasets](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release). These tools support others researchers to join the effort to understand and address bias in machine learning.
 
-Bias in our models is an active area of research and we welcome others
+Unintended bias in our models is an active area of research and we welcome others
 [getting involved in WikiDetox Wiki pages](https://meta.wikimedia.org/wiki/Research:Detox) and via
 [Conversation AI research projects on github](https://conversationai.github.io/).
-You can find more about the tools and analysis of we are exploring to migite
-unintended bias on our
-[github bias anlysis project](https://github.com/conversationai/conversationai-bias-analysis).
+You can find more about the tools and analysis methods we are exploring to migite
+unintended bias in our 
+[unintended ml bias anlysis github project](https://github.com/conversationai/conversationai-bias-analysis).
