@@ -1,6 +1,6 @@
 [Back to Conversation AI Research Overview](index.md)
 
-This page is intended to help people collaborate in helping us understand machine learning bias. If you want to know more about the machine learning terms used in this page, have a quick read of [our introduction to ML](ml_intro.md).
+This page introduces the concepts of unintended bias in machine learning and the fairness challenges to making machine learning help online conversations at scale. If you want to know more about the machine learning terms used in this page, have a quick read of [our introduction to ML](ml_intro.md).
 
 ## Unintended Bias in Machine Learning
 
