@@ -22,11 +22,17 @@ To submit a link to an existing public dataset, or get help creating new public 
 
 The Perspective API ([demo](https://www.perspectiveapi.com/); [API documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md)) serves models created by the Conversation AI research initiative to enable platforms, developers, and researchers to explore how ML might help conversations online. The API scores a comment based on its potential impact on a conversation.
 
-Our first alpha-version perspective is 'toxicity', and is only in English right now. This allows text to be scored based its similarity to comments people have said are “toxic” or likely to make them leave a conversation. The model is still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve.
+Our first alpha-version perspective model, and the model that you can play with on the public demo is 'toxicity' (and it is only in English right now). The toxicity model allows text to be scored based its similarity to comments people have said are “toxic” or likely to make them leave a conversation. There are also several other experimental perspective models you can play with, such as a model that ties to identify unsubstantial comments. These are described in [our developer documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md). As the research develops we will add new models to the API and list them there.
 
-We do not recommend using the API as a tool for automated moderation: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing.
+Our models are still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve. 
 
-As the research develops we will add new models to the API. For example, we are currently experimenting with models for unsubstantial and off-topic comments. Fore more information, see the [API documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md).
+#### How might the API be used?
+
+The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used.
+
+*We do not recommend using the API as a tool for automated moderation*: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing.
+
+#### How can I stay up to date with developments?
 
 If you would like to receive email updates about the API - for example when we add new models, or deprecate old ones, you can subscribe to [perspective-announce](https://groups.google.com/forum/#!forum/perspective-announce/join), to receive emails updates from perspective-announce@googlegroups.com. This list will be used only to share release information, and will never be used to ask you for login details.
 
