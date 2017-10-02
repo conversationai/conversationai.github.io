@@ -6,7 +6,7 @@ Our research aims to help increase participation, quality, and empathy in online
 * What aspects of a conversation can machine learning understand?
 * What are the risks and challenges of using machine learning to assist online conversations?
 
-More further details see out [research resources page](research.md), and in [our blog: The False Positive](https://medium.com/the-false-positive/).
+Further details can be found in our [research resources page](research.md), and [our blog: The False Positive](https://medium.com/the-false-positive/).
 
 ### Public datasets
 
