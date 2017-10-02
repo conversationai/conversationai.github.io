@@ -6,7 +6,7 @@ Our research aims to help increase participation, quality, and empathy in online
 * What aspects of a conversation can machine learning understand?
 * What are the risks and challenges of using machine learning to assist online conversations?
 
-More further details see out [research resources page](research.md).
+More further details see out [research resources page](research.md), and in [our blog: The False Positive](https://medium.com/the-false-positive/).
 
 ### Public datasets
 
@@ -28,9 +28,9 @@ Our models are still far from perfect - it will make errors: it will be unable t
 
 #### How might the API be used?
 
-The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used.
+The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used. 
 
-*We do not recommend using the API as a tool for automated moderation*: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing.
+*We do not recommend using the API as a tool for automated moderation*: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing. [Our blog post on how to use ML models, despite their imperfections](https://medium.com/the-false-positive/better-discussions-with-imperfect-models-91558235d442) outlines some further considerations and illustrates the challenge and opportunity further.
 
 #### How can I stay up to date with developments?
 
