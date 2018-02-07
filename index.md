@@ -1,4 +1,4 @@
-### Research overview
+# Research overview
 
 Our research aims to help increase participation, quality, and empathy in online conversation at scale. Our three primary areas of research are:
 
@@ -8,7 +8,7 @@ Our research aims to help increase participation, quality, and empathy in online
 
 Further details can be found in our [research resources page](research.md), and [our blog: The False Positive](https://medium.com/the-false-positive/).
 
-### Public datasets
+# Public datasets
 
 One of the main challenges of machine learning research is limited availability of high quality research data to improve online discussion.  We want to change that by creating, publishing, and/or identifying high quality public data sets related to online discussion.
 
@@ -18,7 +18,7 @@ One of the main challenges of machine learning research is limited availability 
 
 To submit a link to an existing public dataset, or get help creating new public data sets for related research please fill out [this form](https://goo.gl/forms/z3JatRhT5x53Xa0I2).
 
-### Perspective API
+# Perspective API
 
 The Perspective API ([demo](https://www.perspectiveapi.com/); [API documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md)) serves models created by the Conversation AI research initiative to enable platforms, developers, and researchers to explore how ML might help conversations online. The API scores a comment based on its potential impact on a conversation.
 
@@ -26,22 +26,22 @@ Our first alpha-version perspective model, and the model that you can play with 
 
 Our models are still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve. 
 
-#### How might the API be used?
+## How might the API be used?
 
 The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used. 
 
 *We do not recommend using the API as a tool for automated moderation*: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing. [Our blog post on how to use ML models, despite their imperfections](https://medium.com/the-false-positive/better-discussions-with-imperfect-models-91558235d442) outlines some further considerations and illustrates the challenge and opportunity further.
 
-#### How can I stay up to date with developments?
+## How can I stay up to date with developments?
 
 If you would like to receive email updates about the API - for example when we add new models, or deprecate old ones, you can subscribe to [perspective-announce](https://groups.google.com/forum/#!forum/perspective-announce/join), to receive emails updates from perspective-announce@googlegroups.com. This list will be used only to share release information, and will never be used to ask you for login details.
 
-### Partner experiments
+# Partner experiments
 
 * [Wikimedia Foundation WikiDetox Research Project](https://meta.wikimedia.org/wiki/Research:Detox): aims to understand the nature of harassment and personal attacks at scale.
 * With the New York Times we are working with to enable moderators to more quickly review comments by clustering similar comments together. Their article [Approve or Reject: Can You Moderate Five New York Times Comments?](https://www.nytimes.com/interactive/2016/09/20/insider/approve-or-reject-moderation-quiz.html) describes the challenges in more detail.
 
-### Values guiding the research
+# Values guiding the research
 
 * Community: For the community, by the community.
 * Transparency: Open processes for open discussions.
@@ -49,14 +49,14 @@ If you would like to receive email updates about the API - for example when we a
 * Privacy: It’s about what you say, whoever you are.
 * Topic-neutral: It’s about how you discuss, not what you discuss.
 
-### Who is working on this?
+# Who is working on this?
 
 The research effort was started by [Jigsaw](https://jigsaw.google.com/) and the Google Counter-Abuse Technology Team and welcomes contributions from anyone interested in better online conversation. If you have questions about our research, you can email us at [conversationai-questions@google.com](mailto:conversationai-questions@google.com).
 
-### Open source ML efforts for online conversation
+# Open source ML efforts for online conversation
 
 Are you building a machine learning tool for great conversation that you’d like to us to know about and link to from this page? [Let us know!](https://goo.gl/forms/z3JatRhT5x53Xa0I2)
 
-### Contributing examples to help improve online conversation
+# Contributing examples to help improve online conversation
 
 Do you have examples of comments (both comments you want in your community and comments you don't want in your community) that you would like to contribute for use in research and products to improve conversations online? You can [submit examples here](https://goo.gl/forms/d9TMWhnHB8vEzmyR2)
