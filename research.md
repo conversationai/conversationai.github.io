@@ -15,7 +15,7 @@ One of our contributions is to produce datasets to support research:
    * [Wikipedia Machine Annotations of Talk Pages](https://figshare.com/articles/Wikipedia_Talk_Corpus/4264973): machine-labelled annotations for every English Wikipedia talk page comment from 2001 to 2015, approximately 95 million comments to support large scale data analysis.
    * To submit a link to an existing public dataset, or get help creating new public data sets for related research please fill out [this form](https://goo.gl/forms/z3JatRhT5x53Xa0I2).
 
-## Research & Code
+## Opensource Code
 
 We also have various public github projects to support research into having better converstions online:
 
