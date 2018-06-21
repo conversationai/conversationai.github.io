@@ -1,6 +1,6 @@
 # Best Practices in Open Collaboration on ML for Better Conversations
 
-There are many challenges for people and organizations trying to collaborate to have better discussions by leveraging ML. This page outlines some of the core challenges and proposed best practices to support a larger more collaborative and open ecosystem to help improve online discussion.
+There are many challenges for people and organizations trying to collaborate to have better discussions by leveraging ML. This page outlines some proposals for best practices to support a larger more collaborative and open ecosystem to help improve online discussion.
 
 ## Share anonymized public contributions under creative commons
 
