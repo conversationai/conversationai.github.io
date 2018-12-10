@@ -36,6 +36,8 @@ An annotator is provided with:
 
 WARNING: some of the comments below are horrible; stop reading here if you don't want to read horrible comments right now.
 
+#### Example 1
+
 * Comment: He looks like a caveman, only far less intelligent!
 * Answers:
   * Toxicity: Toxic
@@ -45,6 +47,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Insult: Yes
   * Threatening: No
 * Reasoning: Insults an individual's intelligence and appearance. Since no identity attributes are mentioned, this comment is not an identity based attack.
+
+#### Example 2
 
 * Comment: I will flay you alive, you fking faggot.
 * Answers:
@@ -56,6 +60,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Threatening: Yes
 * Reasoning: Threatening, insulting and toxic towards gay community. The word "fking" is a mis-spelled version of "fucking", which is profanity. In this comment, the word "fucking" does not have a sexual meaning.
 
+#### Example 3
+
 * Comment: ouch bad move mother fucker. i'm coming for you now., going to rape you in your sleep.
 * Answers:
   * Toxicity: Very Toxic
@@ -65,6 +71,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Insult: Yes
   * Threatening: Yes
 * Reasoning: Contains a sexually explicit threat (rape) and profane and insulting language ("mother fucker").
+
+#### Example 4
 
 * Comment: Black Americans have a hive mind mentality and automatically switch political party preferences just like that.
 * Answers:
@@ -76,6 +84,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Threatening: No
 * Reasoning: This comment stereotypes and insults Black Americans based on race.
 
+#### Example 5
+
 * Comment: That's fucking amazing ! thanks for sharing.
 * Answers:
   * Toxicity: Not Toxic, or Hard to say.
@@ -85,6 +95,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Insult: No
   * Threatening: No
 * Reasoning: Contains the word "fucking" which is profane language, however in this case it is used in a positive way. So it's very unlikely to be causing people to leave the discussion.
+
+#### Example 6
 
 * Comment: Most importantly, don't forget that we're all humans, who make mistakes. And take it easy!
 * Answers:
@@ -96,6 +108,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Threatening: No
 * Reasoning: Nothing very negative about this comment. The only part that seems like it might be taken the wrong way is the implicit statement that you're not taking it easy; but that could also be a friendly encouragement.
 
+#### Example 7
+
 * Comment: Peter is an idiot.
 * Answers:
   * Toxicity: Toxic
@@ -105,6 +119,8 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Insult: Yes
   * Threatening: No
 * Reasoning: Insulting and toxic comment towards other speaker. Likely to lead to conversation stopping or escalating. However, even if this comment is about a specific person it is NOT identity based negativity in the sense that we define it because it does not have to do with a criteria such as race or ethnicity, religion, gender, nationality or citizenship, disability, age or sexual orientation.
+
+#### Example 8
 
 * Comment: French people drink wine every evening.
 * Answers:
