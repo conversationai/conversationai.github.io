@@ -24,11 +24,13 @@ The Perspective API ([demo](https://www.perspectiveapi.com/); [API documentation
 
 Our first alpha-version perspective model, and the model that you can play with on the public demo is 'toxicity' (and it is only in English right now). The toxicity model allows text to be scored based its similarity to comments people have said are “toxic” or likely to make them leave a conversation. There are also several other experimental perspective models you can play with, such as a model that tries to identify unsubstantial comments. These are described in [our developer documentation](https://github.com/conversationai/perspectiveapi/blob/master/README.md). As the research develops we will add new models to the API and list them there.
 
-Our models are still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve. 
+The models provided by the API are trained on more comments than are available in our public datasets listed above. This is because some contributors do not wish for the comments they shared with us to be more widely available.
+
+Our models are still far from perfect - it will make errors: it will be unable to detect patterns of toxicity it has not seen before, and it will falsely detect comments that are similar to patterns of previous toxic conversations. To help improve the machine learning, the API supports sending us suggested scores which allow the model to improve.
 
 ## How might the API be used?
 
-The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used. 
+The [gallery of perspective hacks](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks) illustrates various ideas people have had for how the API might be used.
 
 *We do not recommend using the API as a tool for automated moderation*: the models make too many errors. We have released early access to the API to support research and allow developers, publishers and platforms to try creating new conversational experiences e.g. to help human moderators choose what to review, to help people reading comments to choose what they read, or to help authors get another perspective on what they are writing. [Our blog post on how to use ML models, despite their imperfections](https://medium.com/the-false-positive/better-discussions-with-imperfect-models-91558235d442) outlines some further considerations and illustrates the challenge and opportunity further.
 
