@@ -37,51 +37,16 @@ Lots more hacks built using our API can be found at the [Perspective Hacks Galle
  * [Hot Topics](https://github.com/conversationai/perspective-hacks/hot_topics/README.md): Compare unpublished articles with others that have created debate - before you push them live.
  * [Comment Blur Filter](https://github.com/conversationai/perspective-hacks/comment_filter/README.md): Easily find and hide comments based on your tolerance for toxicity.
  
-## Research questions
+## Research Contributions
 
-The following are our key research questions.
-
-### How might machine learning methods help online conversations?
-
-We hypothesise that machine learning can help focus human attention more effectively. Our initial research is summerized in our blog post [Algorithms And Insults: Scaling Up Our Understanding Of Harassment On Wikipedia](https://medium.com/jigsaw/algorithms-and-insults-scaling-up-our-understanding-of-harassment-on-wikipedia-6cc417b9f7ff). 
-
-### Machine learning to help understand harassment at scale?
-
-In [Ex Machina: Personal Attacks Seen at Scale](https://arxiv.org/abs/1610.08914), we outline how crowdsourcing and machine learning can be used to analyze personal attacks at scale, and applies the methods to help understand the challenge on Wikipedia.
-
-### What role does toxic language have in reducing the number of viewpoints in a discussion?
-
-### What tools are needed to make robust open debate on important issues easier at scale?
-
-### How might machine learning based tool be used by communities, commenters and authors?
-
-We've developed [an opensource moderation tool](https://github.com/conversationai/conversationai-moderator/) to [enable the New York Times to spend more moderator time supporting their community](https://www.nytimes.com/2017/06/13/insider/have-a-comment-leave-a-comment.html).
-
-### What aspects of a conversation can machine learning understand?
-
-Can machine learning methods understand the emotional impact of language?
-
-How much of the structure of a conversation can machine learning approaches uncover?
-
-### What are the risks and challenges of using machine learning to assist online conversations?
-
-What unintended and unfair biases might machine learning models contain? What impact might such biases have? What are the best ways to identify these biases? and what can be done mitigate them?
-
- * See [Attacking discrimination with smarter machine learning](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) for a great introduction to the problem. Challenges related machine learning bias, fairness and algorithmic bias are outlined further on our [unintended bias page](bias.md).
-
- * In [Measuring and Mitigating Unintended Bias for Text Classification](https://github.com/conversationai/unintended-ml-bias-analysis/blob/master/presentations/measuring-mitigating-unintended-bias-paper.pdf) we have developed methods for measuing the unintended bias in a text classifier according to terms that appear in the text, as well as approaches to help mitigate them.
-
-### How might machine learning based tool be gamed?
-
- * Word based models, including the CNN we developed for toxicty, can be tricked easily by creative misspellings. Using character level models can help address this, but require more data and their training suffers from [the vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem).
-
- * Models based on character-level ngrams fed into feed-forward networks, like our TOXICITY_FAST model, can be easily gamed by adding additional ngrams after the initial comment that counter the signal from the problematic ngrams. This can be addressed by using RNNs and CNNs, like our TOXICITY model which take account of more of the textual context.
-
- * The practical impact of gaming ML models is an open research question, and is likely to depend on way the ML is applied. Moreover, there are different threat models for different applications of ML: gaming of an authorship experience is quite different to the recieving suggestions and considering retraining on them.
-
- * The research of [Cheng et. al.](https://arxiv.org/abs/1702.01119) and [Wulczyn et. al.](https://arxiv.org/abs/1610.08914) suggest that the majority of toxic contributions are not from people who would be incentivised to game models, but from people having a 'bad day'.
-
-### How might ML be misused to censor or reduce viewpoints in a conversation?
-
-ML is a very general technology and can be used in many ways. Part of our research is into possible mis-uses of such technology, for example, we've published a survey paper on [Network Traffic Obfuscation and Automated Internet Censorship
-](https://arxiv.org/abs/1605.04044).
+* [Debiasing Embeddings for Reduced Gender Bias in Text Classification](https://ai.google/research/pubs/pub48410) demonstrates how traditional techniques for debiasing word embeddings can actually increase model bias on downstream tasks and proposes novel debiasing methods to ameliorate the issue.
+* [Model Cards for Model Reporting](https://ai.google/research/pubs/pub48120) proposes a framework to encourage transparent reporting of the context, use-cases, and performance characteristics of machine learning models across domains.
+* [Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification](https://ai.google/research/pubs/pub48094) introduces a suite of threshold-agnostic metrics that provide a nuanced view of unintended bias in text classification, by exploring the various ways that a classifier's score distribution can vary across designated groups.
+* [Crowdsourcing Subjective Tasks: The Case Study of Understanding Toxicity in Online Discussions](https://dl.acm.org/citation.cfm?id=3317083) discusses open questions and research challenges toward the goal of effective crowdsourcing of online toxicity as well as presenting a survey of recent work that addresses these.
+* [WikiDetox Visualization](http://wikiworkshop.org/2019/papers/Wiki_Workshop_2019_paper_17.pdf) presents a novel data visualization and moderation tool for Wikipedia that is built on top of the Perspective API.
+* [Conversations Gone Awry: Detecting Early Signs of Conversational Failure](https://ai.google/research/pubs/pub47560) introduces the task of predicting whether a given conversation is on the verge of being derailed by the antisocial actions of one of its participants and demonstrates that a simple model using conversational and linguistic features can achieve performance close to that of humans for this task.
+* [Measuring and Mitigating Unintended Bias in Text Classification](https://ai.google/research/pubs/pub46743) develops methods for measuring the unintended bias in a text classifier according to terms that appear in the text, as well as approaches to help mitigate them. The limitations of these methods are expanded on in the follow up paper [Limitations of Pinned AUC for Measuring Unintended Bias](https://arxiv.org/abs/1903.02088).
+* [Correlating Self-Report and Trace Data Measures of Incivility: A Proof of Concept](https://journals.sagepub.com/doi/abs/10.1177/0894439318814241) connects trace data and machine learning classifiers to self-reported survey information about user’s online behaviour demonstrating the correlation between the two.
+* [WikiConv: A Corpus of the Complete Conversational History of a Large Online Collaborative Community](https://ai.google/research/pubs/pub47559) presents an unprecedented view of the complete history of conversations between contributors of English Wikipedia by recording the intermediate states of conversations---including not only comments and replies, but also their modifications, deletions and restorations.
+* [Ex machina: Personal attacks seen at scale](https://ai.google/research/pubs/pub47349) outlines how crowdsourcing and machine learning can be used to scale our understanding of online personal attacks and applies these methods to the challenge on Wikipedia.
+* [Network Traffic Obfuscation and Automated Internet Censorship](https://arxiv.org/abs/1605.04044) surveys approaches that use machine learning to obfuscate network traffic to circumvent censorship.
