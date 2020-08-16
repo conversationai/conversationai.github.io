@@ -15,7 +15,7 @@ One of our contributions is to produce datasets to support research:
    * [Wikipedia Machine Annotations of Talk Pages](https://figshare.com/articles/Wikipedia_Talk_Corpus/4264973): machine-labelled annotations for every English Wikipedia talk page comment from 2001 to 2015, approximately 95 million comments to support large scale data analysis.
    * To submit a link to an existing public dataset, or get help creating new public data sets for related research please fill out [this form](https://goo.gl/forms/z3JatRhT5x53Xa0I2).
 
-## Opensource Code
+## Open Source Code
 
 We also have various public github projects to support research into having better converstions online:
 
@@ -39,6 +39,8 @@ Lots more hacks built using our API can be found at the [Perspective Hacks Galle
  
 ## Research Contributions
 
+* [Toxicity Detection: Does Context Really Matter?](https://www.aclweb.org/anthology/2020.acl-main.396/) studies the importance of  context, and when as well as to what extent it can change the perceived toxicity of posts, finding that context can both amplify or mitigate the perceived toxicity of posts, and moreover for a subset of the data that including context can even reverse the toxicity label.
+* [Classifying Constructive Comments (preprint)](https://arxiv.org/abs/2004.05476) introduces a new dataset of constructive comments, defines a taxonomy of characteristics of constructiveness, and provides models for constructiveness trained on this dataset.
 * [Debiasing Embeddings for Reduced Gender Bias in Text Classification](https://ai.google/research/pubs/pub48410) demonstrates how traditional techniques for debiasing word embeddings can actually increase model bias on downstream tasks and proposes novel debiasing methods to ameliorate the issue.
 * [Model Cards for Model Reporting](https://ai.google/research/pubs/pub48120) proposes a framework to encourage transparent reporting of the context, use-cases, and performance characteristics of machine learning models across domains.
 * [Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification](https://ai.google/research/pubs/pub48094) introduces a suite of threshold-agnostic metrics that provide a nuanced view of unintended bias in text classification, by exploring the various ways that a classifier's score distribution can vary across designated groups.
