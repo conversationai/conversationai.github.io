@@ -1,4 +1,4 @@
-Conversation-AI is an initiative to protect voices in conversation. We develop machine learning models to classify the impact of comments on conversations, and we serve these to platforms via the Perspective API. We also conduct experiments and publish original research to explore the strengths and weaknesses of ML as a tool for combating online toxicity and harassment. Further details can be found in our [research resources page](https://perspectiveapi.com/research/), and our [blog] (https://medium.com/jigsaw/toxicity/home).
+Conversation-AI is an initiative to protect voices in conversation. We develop machine learning models to classify the impact of comments on conversations, and we serve these to platforms via the Perspective API. We also conduct experiments and publish original research to explore the strengths and weaknesses of ML as a tool for combating online toxicity and harassment. Further details can be found in our [research resources page](https://perspectiveapi.com/research/), and our [blog](https://medium.com/jigsaw/toxicity/home).
 
 # Vision
 
