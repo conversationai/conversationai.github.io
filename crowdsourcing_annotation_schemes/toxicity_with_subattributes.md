@@ -6,16 +6,16 @@ We are interested in detecting the toxicity of language in a collection of onlin
 
 * Very Toxic - a very hateful, aggressive, disrespectful comment or otherwise very likely to make a user leave a discussion or give up on sharing their perspective.
 * Toxic - a rude, disrespectful, unreasonable comment or otherwise somewhat likely to make a user leave a discussion or give up on sharing their perspective.
-* Slightly Toxic or hard to say.
-* Not toxic.
+* I'm not sure
+* Not Toxic
 
-We are additionally interested in determining if the comment contains profanity/obscenity, sexually explicit content, identity based attacks, threatening language and insults. Please use the following definitions as a guide:
+We are additionally interested in determining if the comment contains profanity/obscenity, sexually explicit content, identity based negativity, threatening language, and insults. Please use the following definitions as a guide:
 
-* Profanity/Obscenity: Contains swear words, curse words, or other obscene or profane language.
+* Profanity/Obscenity: Swear words, curse words, or other obscene or profane language.
 * Sexually explicit: Contains references to sexual acts or body parts sexual way, or other lewd content.
-* Identity based attack: A negative, discriminatory or hateful comment about a person or group of people based on criteria including (but not limited to) race or ethnicity, religion, gender, nationality or citizenship, disability, age or sexual orientation.
-* Insulting: Insulting, inflammatory, or negative comment towards a person or a group of people.
-* Threatening: describes a wish or intention for pain, injury, or violence against an individual or group.
+* Identity based negativity: A negative, discriminatory, or hateful comment against a group of people based on criteria including (but not limited to) race or ethnicity, religion, gender, nationality or citizenship, disability, age, or sexual orientation.
+* Insults: Inflammatory, stereotyping, insulting, or negative language towards a person or a group of people.
+* Threatening: Language that is threatening or encouraging violence or harm, including self-harm.
 
 An annotator is provided with:
 
@@ -28,7 +28,7 @@ An annotator is provided with:
 ## Process for annotators
 
 1. Read the comment
-2. If the comment is not in English, please indicate that on the checkbox.
+2. If the comment is not in English, please indicate that on the checkbox
 3. Choose the level of toxicity in the comment
 4. Answer the following questions
 
@@ -38,15 +38,15 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
 
 #### Example 1
 
-* Comment: He looks like a caveman, only far less intelligent!
+* Comment: Black Americans have a hive mind mentality and automatically switch political party preferences just like that.
 * Answers:
-  * Toxicity: Toxic
+  * Toxicity: Very Toxic
   * Profanity/Obscenity: No
   * Sexually explicit: No
-  * Identity based attack: No
+  * Identity based negativity: Yes
   * Insult: Yes
   * Threatening: No
-* Reasoning: Insults an individual's intelligence and appearance. Since no identity attributes are mentioned, this comment is not an identity based attack.
+* Reasoning: Stereotyping of black Americans in an insulting and demeaning way that promotes discrimination.
 
 #### Example 2
 
@@ -55,46 +55,46 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Toxicity: Very Toxic
   * Profanity/ Obscenity: Yes
   * Sexually explicit: No
-  * Identity based attack: Yes
+  * Identity based negativity: Yes
   * Insult: Yes
   * Threatening: Yes
-* Reasoning: Threatening, insulting and toxic towards gay community. The word "fking" is a mis-spelled version of "fucking", which is profanity. In this comment, the word "fucking" does not have a sexual meaning.
+* Reasoning: Threatening, insulting and toxic towards gay community.
 
 #### Example 3
+
+* Comment: Good fucking lord.
+* Answers:
+  * Toxicity: I'm not sure
+  * Profanity/Obscenity: Yes
+  * Sexually explicit: No
+  * Identity based negativity: No
+  * Insult: No
+  * Threatening: No
+* Reasoning: This is a more subtle version of toxicity perhaps more passive aggressive but it is likely to have an impact on the conversation. In addition many will consider "fucking" to be obscene.
+
+#### Example 4
 
 * Comment: ouch bad move mother fucker. i'm coming for you now., going to rape you in your sleep.
 * Answers:
   * Toxicity: Very Toxic
   * Profanity/Obscenity: Yes
   * Sexually explicit: Yes
-  * Identity based attack: No
+  * Identity based negativity: No
   * Insult: Yes
   * Threatening: Yes
-* Reasoning: Contains a sexually explicit threat (rape) and profane and insulting language ("mother fucker").
-
-#### Example 4
-
-* Comment: Black Americans have a hive mind mentality and automatically switch political party preferences just like that.
-* Answers:
-  * Toxicity: Very Toxic
-  * Profanity/Obscenity: No
-  * Sexually explicit: No
-  * Identity based attack: Yes
-  * Insult: Yes
-  * Threatening: No
-* Reasoning: This comment stereotypes and insults Black Americans based on race.
+* Reasoning: Threatening comment and containing obscene content "mother fucker" and a sexually explicit threat (rape). Would count as Very Toxic. 
 
 #### Example 5
 
 * Comment: That's fucking amazing ! thanks for sharing.
 * Answers:
-  * Toxicity: Not Toxic, or Hard to say.
+  * Toxicity: Not Toxic
   * Profanity/ Obscenity: Yes
   * Sexually explicit: No
-  * Identity based attack: No
+  * Identity based negativity: No
   * Insult: No
   * Threatening: No
-* Reasoning: Contains the word "fucking" which is profane language, however in this case it is used in a positive way. So it's very unlikely to be causing people to leave the discussion.
+* Reasoning: Contains "fucking" which would count as profane language however it is used in a "friendly" way so would not count as toxic.
 
 #### Example 6
 
@@ -103,31 +103,44 @@ WARNING: some of the comments below are horrible; stop reading here if you don't
   * Toxicity: Not Toxic
   * Profanity/Obscenity: No
   * Sexually explicit: No
-  * Identity based attack: No
+  * Identity based negativity: No
   * Insult: No
   * Threatening: No
-* Reasoning: Nothing very negative about this comment. The only part that seems like it might be taken the wrong way is the implicit statement that you're not taking it easy; but that could also be a friendly encouragement.
+* Reasoning: Nothing negative about particular comment.
 
 #### Example 7
+
+* Comment: You're a real idiot, you know that.
+* Answers:
+  * Toxicity: Toxic
+  * Profanity/ Obscenity: No
+  * Sexually explicit: No
+  * Identity based negativity: No
+  * Insult: Yes
+  * Threatening: No
+* Reasoning: Insulting and toxic comment towards other speaker. Likely to lead to conversation stopping or escalating.
+
+#### Example 8
 
 * Comment: Peter is an idiot.
 * Answers:
   * Toxicity: Toxic
   * Profanity/ Obscenity: No
   * Sexually explicit: No
-  * Identity based attack: No
+  * Identity based negativity: No
   * Insult: Yes
   * Threatening: No
-* Reasoning: Insulting and toxic comment towards other speaker. Likely to lead to conversation stopping or escalating. However, even if this comment is about a specific person it is NOT identity based negativity in the sense that we define it because it does not have to do with a criteria such as race or ethnicity, religion, gender, nationality or citizenship, disability, age or sexual orientation.
+* Reasoning: Insulting and toxic comment towards other speaker. Likely to lead to conversation stopping or escalating. However, even if this comment is about a specific person it is NOT identity based negativity as defined here because it does not have to do with a criteria such as race or ethnicity, religion, gender, nationality or citizenship, disability, age, or sexual orientation.
 
-#### Example 8
+#### Example 9
 
 * Comment: French people drink wine every evening.
 * Answers:
-  * Toxicity: Hard to say/Slightly
+  * Toxicity: Not Toxic
   * Profanity/ Obscenity: No
   * Sexually explicit: No
-  * Identity based attack: Hard to say/Slightly
+  * Identity based negativity: No
   * Insult: No
   * Threatening: No
-* Reasoning: This is certainly stereotypical but NOT an strong identity based attack in the sense that we define it because it is not negative or hateful or otherwise promoting discrimination. But it is stereotyping and might be frustrating to people who identify as French, which justified the Slight/Hard-to-say rating. If the comment had been  "French people are raging alcoholics" than it would clearly be considered as an identity based attack.
+* Reasoning: This is certainly stereotypical but NOT identity based negativity as defined here because it is not negative or hateful or otherwise promoting discrimination.  If the comment had been  "French people are raging alcoholics" then it would be considered as identity based negativity.
+
